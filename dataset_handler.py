@@ -43,14 +43,6 @@ def read_img(path_to_file):
 def project_dataset(dataset, evcs):
     Y = []
     for photo_idx in range(len(dataset[0])):
-        photo_vector = [i[photo_idx] for i in dataset]
-        y = []
-        for j in evcs:
-            y.append(np.inner(j, photo_vector))
-        Y.append(y)
+        Y.append([np.inner(j, [i[photo_idx] for i in dataset]) for j in evcs])
     return Y
 
-if __name__ == "__main__":
-    path = "./training_dataset/"
-    ds =  dataset_to_matrix(path)
-    print(ds[1])

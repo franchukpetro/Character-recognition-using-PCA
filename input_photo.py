@@ -41,11 +41,3 @@ def nearest_vector(img_vector, photos):
         if distances[key] == nearest:
             return key
 
-
-if __name__ == "__main__":
-    dct = {"1000":10, "200":20, "300":30}
-    mini =  min(dct.values())
-    for i in dct:
-        if dct[i] == mini:
-            print(i)
-
