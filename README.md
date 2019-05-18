@@ -19,7 +19,7 @@ To download this repository on your computer just copy this into your command li
 
 We use datasets of images of English letters. There are letters of different fonts, bold and italic versions of them.
 
-To test our program you can download *our dataset* from:  
+To test our program you can download *our dataset* from:  <https://drive.google.com/drive/folders/1qCqnZjuloh1ezNuNeHCjWGNvAJIJG1k6?usp=sharing>
 
 To see the *whole dataset* look there: <http://www.ee.surrey.ac.uk/CVSSP/demos/chars74k/>
 
